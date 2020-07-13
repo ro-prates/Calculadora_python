@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QPushButton, QWidget, QGridLayout, QLineEdit, QSizeP
 class Calculadora(QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.setWindowTitle('Calculadora do Teste')
+        self.setWindowTitle('Calculadora do Ronaldy')
         self.setFixedSize(400, 400)
         self.cw = QWidget()
         self.grid = QGridLayout(self.cw)
